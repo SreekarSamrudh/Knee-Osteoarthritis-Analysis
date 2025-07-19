@@ -85,7 +85,13 @@ Learning** and **Streamlit** works?
     ```shell
     (base)$: conda activate knee_dl_app
     ```
+-Download `model_Xception_ft.hdf5` model from
+   [here](https://drive.google.com/drive/folders/1XtgnJ6yNPKbuWKeBuXuJX9nAUzuZUe-C?usp=sharing)
+   to run the application. Create `models` folder and copy the model here.
 
+    ```shell
+    (knee_dl_app)$: mkdir src/models
+    ```
 - Download the dataset from [Knee Osteoarthritis Dataset with Severity
    Grading](https://www.kaggle.com/datasets/shashwatwork/knee-osteoarthritis-dataset-with-severity)
    to train the model and test the application. Create `dataset` folder and copy

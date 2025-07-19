@@ -1,8 +1,5 @@
 # Knee Osteoarthritis Analysis with X-ray Images using Deep Convolutional Neural Networks
 
-This code repository is the final project of the Complex Data Mining course at
-Unicamp (MDC013).
-
 ## Knee Osteoarthritis
 
 [Knee osteoarthritis](https://en.wikipedia.org/wiki/Knee_arthritis) is a
@@ -89,14 +86,6 @@ Learning** and **Streamlit** works?
     (base)$: conda activate knee_dl_app
     ```
 
-- Download `model_Xception_ft.hdf5` model from
-   [here](https://drive.google.com/file/d/1vPS_j2AW3M1W8GydREEDw6CDENSgVwCy/view?usp=share_link)
-   to run the application. Create `models` folder and copy the model here.
-
-    ```shell
-    (knee_dl_app)$: mkdir src/models
-    ```
-
 - Download the dataset from [Knee Osteoarthritis Dataset with Severity
    Grading](https://www.kaggle.com/datasets/shashwatwork/knee-osteoarthritis-dataset-with-severity)
    to train the model and test the application. Create `dataset` folder and copy
@@ -115,7 +104,7 @@ Learning** and **Streamlit** works?
     As soon as you run the script, a local Streamlit server will spin up, and
     your app will open in a new tab in your default web browser.
 
-    Or you can navigate to `http://localhost:8501`.
+    Or you can navigate to `http://localhost:8500`.
 
 ## Methodology
 
@@ -241,18 +230,11 @@ score.
 
 ![streamlit app - knee_dl_app](assets/streamlit_knee_low.gif)
 
-#### [pt-br] YouTube
-
-[![Análise da Gravidade de Artrose no Joelho](https://img.youtube.com/vi/gl28zQAs_rk/0.jpg)](https://www.youtube.com/watch?v=gl28zQAs_rk "Análise da Gravidade de Artrose no Joelho")
-
 ## References
-
-- [Complex data mining](https://www.ic.unicamp.br/~mdc/) at
-  [unicamp](https://www.unicamp.br/unicamp/).
 - [Knee Osteoarthritis Dataset with Severity
   Grading](https://www.kaggle.com/datasets/shashwatwork/knee-osteoarthritis-dataset-with-severity)
 
 ---
 
-made with 💙 by [mafda](https://mafda.github.io/)
 "# Knee-Osteoarthritis" 
+"# Knee-Osteoarthritis-Analysis" 

@@ -234,13 +234,9 @@ predict and evaluate the loss in joint spacing, and indicate the probability of
 disease severity, as well as the area that most impacted the classification
 score.
 
-![streamlit app - knee_dl_app](assets/streamlit_knee_low.gif)
-
 ## References
 - [Knee Osteoarthritis Dataset with Severity
   Grading](https://www.kaggle.com/datasets/shashwatwork/knee-osteoarthritis-dataset-with-severity)
 
 ---
 
-"# Knee-Osteoarthritis" 
-"# Knee-Osteoarthritis-Analysis" 
